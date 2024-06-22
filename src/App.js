@@ -6,13 +6,14 @@ import {
   Route,
   Routes as Switch,
 } from "react-router-dom";
+import GlobalStateViewer from "./components/GlobalStateViewer.js";
 
 const App = () => {
   return (
     <Router>
       <>
         <div className="main-container">
-          {/* <GlobalStateViewer /> */}
+          <GlobalStateViewer />
 
           {/* <Navbar /> */}
           <Switch>
